@@ -2,7 +2,7 @@ return {
 	on = {
 		devices = {
 			'Light level front house',
-			'Switch sunscreen upstairs'
+			'Switch sunscreen upstairs',
 			'Switch sunscreen downstairs'
 		}
 	},
