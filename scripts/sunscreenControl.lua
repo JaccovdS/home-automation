@@ -12,7 +12,7 @@ return {
 	execute = function(domoticz, device)
 		
 		local sunscreenUpstairs = domoticz.devices('Sunscreen front upstairs')
-		local sunscreenDownstairs = domoticz.devices('Suncreen front downstairs')
+		local sunscreenDownstairs = domoticz.devices('Sunscreen front downstairs')
 	
 		if(device.name == 'Switch sunscreen upstairs') then
 			if(device.state == 'On') then
